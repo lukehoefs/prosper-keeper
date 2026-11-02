@@ -21,3 +21,9 @@ Plus `.github/workflows/prosper-images.yml` (GHCR build) and this file.
 ## Merging upstream
 `git fetch upstream && git merge upstream/main`, then fix any conflicts in the files above (keep ours).
 File names were kept the same (e.g. `keeper.svg`) so imports never change.
+
+## Command-center theme (v2.28.8-prosper.2)
+Matches portal.prosper-mfg.tech (prosper-customer-portal):
+- Font: Blinker 400/600/700 (`public/assets/fonts/Blinker-*.woff2`, self-hosted), used for sans and the serif heading slot; tabular numerals.
+- Colors: canvas `#F4F2EE` page bg, white cards, navy `#0B1F3A` text/primary buttons, muted `#4B5563`, hairlines `#E4E2DD`, royal `#1E5BFF` focus ring, danger `#DC2626`, warning `#D97706`.
+- `__root.tsx` preloads Blinker instead of Lora. Keeper is light-only upstream, so only the portal's light tokens apply.
