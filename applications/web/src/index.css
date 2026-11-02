@@ -315,3 +315,14 @@ html {
     animation: none !important;
   }
 }
+
+/* Prosper Manufacturing branding (see BRANDING.md). Kept as one appended block so upstream merges stay clean. */
+:root {
+  --ui-foreground: #0B1F3A;
+  --ui-background: #FFFFFF;
+  --ui-foreground-muted: #445D8E;
+  --ui-interactive-border: #D9E0EB;
+  --ui-border-elevated: #D9E0EB;
+  --ui-background-inverse-hover: #1F3866;
+  --ui-ring: #1E5BFF;
+}

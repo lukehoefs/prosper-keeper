@@ -1,6 +1,6 @@
 {
-  "name": "Keeper.sh",
-  "short_name": "Keeper",
+  "name": "Prosper Calendar",
+  "short_name": "Prosper Calendar",
   "start_url": "/",
   "icons": [
     {
@@ -16,7 +16,7 @@
       "purpose": "any"
     }
   ],
-  "theme_color": "#FAFAFA",
-  "background_color": "#FAFAFA",
+  "theme_color": "#0B1F3A",
+  "background_color": "#FFFFFF",
   "display": "standalone"
 }

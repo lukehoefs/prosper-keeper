@@ -1,3 +1,19 @@
-<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M50 21.2441C57.732 21.2441 64 27.5122 64 35.2441V50C64 57.732 57.732 64 50 64H35.2441C27.5122 64 21.2441 57.732 21.2441 50V42.7559H28.7559C36.4878 42.7559 42.7559 36.4878 42.7559 28.7559V21.2441H50ZM28.7559 0C36.4878 0 42.7559 6.26801 42.7559 14V21.2441H35.2441C27.5122 21.2441 21.2441 27.5122 21.2441 35.2441V42.7559H14C6.26801 42.7559 0 36.4878 0 28.7559V14C0 6.26801 6.26801 0 14 0H28.7559Z" fill="currentColor"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Prosper Manufacturing">
+  <defs>
+    <clipPath id="prosperGlobeClip">
+      <circle cx="50" cy="50" r="48" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#prosperGlobeClip)" fill="#0B1F3A">
+    <!-- Top crown -->
+    <path d="M 0 0 L 100 0 L 100 18 Q 75 24, 50 18 Q 25 12, 0 18 Z" />
+    <!-- Wave band 1 -->
+    <path d="M 0 26 Q 25 20, 50 26 Q 75 32, 100 26 L 100 38 Q 75 44, 50 38 Q 25 32, 0 38 Z" />
+    <!-- Wave band 2 -->
+    <path d="M 0 46 Q 25 40, 50 46 Q 75 52, 100 46 L 100 58 Q 75 64, 50 58 Q 25 52, 0 58 Z" />
+    <!-- Wave band 3 -->
+    <path d="M 0 66 Q 25 60, 50 66 Q 75 72, 100 66 L 100 78 Q 75 84, 50 78 Q 25 72, 0 78 Z" />
+    <!-- Bottom crown -->
+    <path d="M 0 86 Q 25 80, 50 86 Q 75 92, 100 86 L 100 100 L 0 100 Z" />
+  </g>
 </svg>

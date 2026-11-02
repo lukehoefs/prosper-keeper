@@ -1,8 +1,8 @@
 import type { SoftwareSchemaCopy } from "./marketing-content";
 
 const SITE_URL = "https://www.keeper.sh";
-const SITE_NAME = "Keeper.sh";
-const SITE_ALTERNATE_NAME = "Keeper";
+const SITE_NAME = "Prosper Calendar";
+const SITE_ALTERNATE_NAME = "Prosper Calendar by Prosper Manufacturing";
 
 // Search engines only. This must never appear in visible page copy — it reads as a
 // defensive aside about a competitor the reader was not thinking about.
