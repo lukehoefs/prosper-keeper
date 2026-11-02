@@ -316,13 +316,24 @@ html {
   }
 }
 
-/* Prosper Manufacturing branding (see BRANDING.md). Kept as one appended block so upstream merges stay clean. */
+/* Prosper Manufacturing branding (see BRANDING.md). Kept as one appended block so upstream merges stay clean.
+   Tokens mirror the command center (portal.prosper-mfg.tech, prosper-customer-portal app/globals.css + tailwind.config.ts). */
+@font-face { font-family: "Blinker"; src: url("/assets/fonts/Blinker-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Blinker"; src: url("/assets/fonts/Blinker-600.woff2") format("woff2"); font-weight: 500 600; font-display: swap; }
+@font-face { font-family: "Blinker"; src: url("/assets/fonts/Blinker-700.woff2") format("woff2"); font-weight: 700 900; font-display: swap; }
 :root {
-  --ui-foreground: #0B1F3A;
-  --ui-background: #FFFFFF;
-  --ui-foreground-muted: #445D8E;
-  --ui-interactive-border: #D9E0EB;
-  --ui-border-elevated: #D9E0EB;
-  --ui-background-inverse-hover: #1F3866;
-  --ui-ring: #1E5BFF;
+  --font-sans: "Blinker", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --font-lora: "Blinker", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --ui-foreground: #0B1F3A;            /* portal navy (headings, primary buttons) */
+  --ui-background: #F4F2EE;            /* portal canvas (warm page bg) */
+  --ui-background-elevated: #FFFFFF;   /* portal surface (cards) */
+  --ui-foreground-muted: #4B5563;      /* portal muted */
+  --ui-foreground-disabled: #A8B6CC;
+  --ui-interactive-border: #E4E2DD;    /* portal line */
+  --ui-border-elevated: #E4E2DD;
+  --ui-background-inverse-hover: #1F3866; /* navy-500 */
+  --ui-ring: #1E5BFF;                  /* portal royal */
+  --ui-destructive: #DC2626;
+  --ui-attention: #D97706;
 }
+body { font-variant-numeric: lining-nums tabular-nums; }

@@ -90,7 +90,7 @@ function RootComponent() {
         <link rel="apple-touch-icon" href="/180x180-light-on-dark.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="preload" href="/assets/fonts/Geist-variable.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
-        <link rel="preload" href="/assets/fonts/Lora-variable.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/assets/fonts/Blinker-400.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
       </head>
       <body>
         <div id="root">
